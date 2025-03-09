@@ -95,7 +95,7 @@ El proyecto está dividido en tres microservicios principales:
 - Genera reportes de estado de cuenta.
 - Consume eventos de movimientos desde Kafka para actualizar los reportes.
 
-## ** Comunicación entre Microservicios**
+## **Comunicación entre Microservicios**
 La comunicación entre los microservicios se realiza de forma asincrónica utilizando Apache Kafka. 
 Los eventos de movimientos se publican en el tópico movimientos, y el microservicio de Reporte los consume para generar reportes actualizados.
 
